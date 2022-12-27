@@ -1,9 +1,6 @@
-# This Makefile is badly written at best
 # TODO: Rewrite this Makefile to be more general
 
-CC = cc
-CFLAGS = -Wall -g
-
+harshitha
 SRC = src/cat.c \
       src/true.c \
       src/false.c \
@@ -11,7 +8,6 @@ SRC = src/cat.c \
       src/wc.c \
       src/unlink.c \
       src/rm.c \
-      src/ls.c \
       src/linked_list.c \
       src/touch.c \
       src/whoami.c \
@@ -29,7 +25,6 @@ ALL_BIN = cat \
 	  wc \
 	  unlink \
 	  rm \
-	  ls \
 	  touch \
 	  whoami \
 	  pwd \
